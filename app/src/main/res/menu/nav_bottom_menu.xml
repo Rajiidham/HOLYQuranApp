@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+    android:id="@+id/nav_quran"
+    android:icon="@drawable/logo_quran"
+        android:fontFamily="@font/sf_pro"
+    android:title="@string/quran"/>
+
+    <item
+        android:id="@+id/nav_adzan"
+        android:title="@string/adzan"
+        android:fontFamily="@font/sf_pro"
+        android:icon="@drawable/ic_adzan"/>
+
+</menu>
