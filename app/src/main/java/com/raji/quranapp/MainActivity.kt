@@ -1,10 +1,11 @@
-package com.fahmi.quranapp
+package com.raji.quranapp
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.navigation.fragment.NavHostFragment
 import androidx.navigation.ui.setupWithNavController
-import com.fahmi.quranapp.databinding.ActivityMainBinding
+import com.raji.quranapp.R
+import com.raji.quranapp.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
 

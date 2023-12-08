@@ -2,7 +2,7 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
     <item
     android:id="@+id/nav_quran"
-    android:icon="@drawable/logo_quran"
+    android:icon="@drawable/book"
         android:fontFamily="@font/sf_pro"
     android:title="@string/quran"/>
 
@@ -10,6 +10,6 @@
         android:id="@+id/nav_adzan"
         android:title="@string/adzan"
         android:fontFamily="@font/sf_pro"
-        android:icon="@drawable/ic_adzan"/>
+        android:icon="@drawable/adzan"/>
 
 </menu>

@@ -1,12 +1,11 @@
-package com.fahmi.quranapp.adapter
+package com.raji.quranapp.adapter
 
-import android.content.Intent
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
-import com.fahmi.quranapp.core.data.network.quran.AyahsItem
-import com.fahmi.quranapp.core.data.network.quran.QuranEditionItem
-import com.fahmi.quranapp.databinding.ItemAyahBinding
+import com.raji.quranapp.databinding.ItemAyahBinding
+import com.raji.quranapp.core.data.network.quran.AyahsItem
+import com.raji.quranapp.core.data.network.quran.QuranEditionItem
 
 class ListAyahAdapter : RecyclerView.Adapter<ListAyahAdapter.AyahViewHolder>() {
 

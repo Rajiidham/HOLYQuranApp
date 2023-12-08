@@ -6,11 +6,11 @@ plugins {
 }
 
 android {
-    namespace = "com.fahmi.quranapp"
+    namespace = "com.raji.quranapp"
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "com.fahmi.quranapp"
+        applicationId = "com.raji.quranapp"
         minSdk = 21
         targetSdk = 33
         versionCode = 1

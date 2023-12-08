@@ -17,7 +17,8 @@
 
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent">
+            android:layout_height="match_parent"
+            android:background="@color/bg_color">
 
             <TextView
                 android:id="@+id/tv_detail_surah"
@@ -27,6 +28,7 @@
                 android:textAlignment="center"
                 android:textSize="24sp"
                 android:fontFamily="@font/sf_pro"
+                android:textColor="@color/icon_tint"
                 android:textStyle="bold"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
@@ -38,6 +40,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="8dp"
                 android:fontFamily="@font/sf_pro"
+                android:textColor="@color/icon_tint"
                 android:textAlignment="center"
                 android:textSize="18sp"
                 android:textStyle="bold"
@@ -47,6 +50,7 @@
                 android:id="@+id/tv_detail_ayah"
                 android:layout_width="match_parent"
                 android:fontFamily="@font/sf_pro"
+                android:textColor="@color/icon_tint"
                 android:layout_height="wrap_content"
                 android:textAlignment="center"
                 app:layout_constraintTop_toBottomOf="@id/tv_detail_name_translation" />
@@ -66,6 +70,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="12dp"
                 android:fontFamily="@font/sf_pro"
+                android:textColor="@color/icon_tint"
                 android:layout_marginBottom="16dp"
                 android:textAlignment="center"
                 android:textSize="24sp"

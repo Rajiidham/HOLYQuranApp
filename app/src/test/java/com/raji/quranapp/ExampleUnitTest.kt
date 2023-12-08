@@ -1,4 +1,4 @@
-package com.fahmi.quranapp
+package com.raji.quranapp
 
 import org.junit.Test
 

@@ -1,12 +1,12 @@
-package com.fahmi.quranapp.adapter
+package com.raji.quranapp.adapter
 
 import android.content.Intent
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
-import com.fahmi.quranapp.core.data.network.quran.SurahItem
-import com.fahmi.quranapp.databinding.ItemSurahBinding
-import com.fahmi.quranapp.presentation.quran.DetailSurahActivity
+import com.raji.quranapp.databinding.ItemSurahBinding
+import com.raji.quranapp.core.data.network.quran.SurahItem
+import com.raji.quranapp.presentation.quran.DetailSurahActivity
 
 class ListSurahAdapter : RecyclerView.Adapter<ListSurahAdapter.SurahViewHolder>() {
 

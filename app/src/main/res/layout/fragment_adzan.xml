@@ -42,7 +42,7 @@
         android:layout_marginTop="16dp"
         android:fontFamily="@font/sf_pro"
         android:textAlignment="center"
-        android:textColor="@color/surface_container"
+        android:textColor="@color/surface"
         android:textSize="32sp"
         android:textStyle="bold"
         app:layout_constraintTop_toBottomOf="@id/tv_location" />
@@ -89,7 +89,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="2dp"
                 android:layout_marginTop="8dp"
-                android:background="@color/surface_container"
+                android:background="@color/surface"
                 app:layout_constraintTop_toBottomOf="@+id/tv_date" />
 
 
@@ -139,7 +139,7 @@
                 android:layout_width="0dp"
                 android:layout_height="1dp"
                 android:layout_marginTop="4dp"
-                android:background="@color/surface_container"
+                android:background="@color/surface"
                 app:layout_constraintEnd_toStartOf="@id/guide_end"
                 app:layout_constraintStart_toEndOf="@id/guide_start"
                 app:layout_constraintTop_toBottomOf="@id/tv_imsak" />
@@ -175,7 +175,7 @@
                 android:layout_width="0dp"
                 android:layout_height="1dp"
                 android:layout_marginTop="4dp"
-                android:background="@color/surface_container"
+                android:background="@color/surface"
                 app:layout_constraintEnd_toStartOf="@id/guide_end"
                 app:layout_constraintStart_toEndOf="@id/guide_start"
                 app:layout_constraintTop_toBottomOf="@id/tv_time_subuh" />
@@ -211,7 +211,7 @@
                 android:layout_width="0dp"
                 android:layout_height="1dp"
                 android:layout_marginTop="4dp"
-                android:background="@color/surface_container"
+                android:background="@color/surface"
                 app:layout_constraintEnd_toStartOf="@id/guide_end"
                 app:layout_constraintStart_toEndOf="@id/guide_start"
                 app:layout_constraintTop_toBottomOf="@id/tv_dzuhur" />
@@ -247,7 +247,7 @@
                 android:layout_width="0dp"
                 android:layout_height="1dp"
                 android:layout_marginTop="4dp"
-                android:background="@color/surface_container"
+                android:background="@color/surface"
                 app:layout_constraintEnd_toStartOf="@id/guide_end"
                 app:layout_constraintStart_toEndOf="@id/guide_start"
                 app:layout_constraintTop_toBottomOf="@id/tv_ashar" />
@@ -283,7 +283,7 @@
                 android:layout_width="0dp"
                 android:layout_height="1dp"
                 android:layout_marginTop="4dp"
-                android:background="@color/surface_container"
+                android:background="@color/surface"
                 app:layout_constraintEnd_toStartOf="@id/guide_end"
                 app:layout_constraintStart_toEndOf="@id/guide_start"
                 app:layout_constraintTop_toBottomOf="@id/tv_maghrib" />
@@ -319,7 +319,7 @@
                 android:layout_width="0dp"
                 android:layout_height="1dp"
                 android:layout_marginTop="4dp"
-                android:background="@color/surface_container"
+                android:background="@color/surface"
                 app:layout_constraintEnd_toStartOf="@id/guide_end"
                 app:layout_constraintStart_toEndOf="@id/guide_start"
                 app:layout_constraintTop_toBottomOf="@id/tv_isya" />

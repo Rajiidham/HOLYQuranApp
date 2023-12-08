@@ -1,4 +1,4 @@
-package com.fahmi.quranapp.core.data.network.quran
+package com.raji.quranapp.core.data.network.quran
 
 import retrofit2.Call
 import retrofit2.http.GET

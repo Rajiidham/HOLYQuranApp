@@ -6,6 +6,9 @@
 
     <color name="primary">#74D2F7</color>
     <color name="on_primary">#003545</color>
+    <color name="bg_color">#5F6F52</color>
+    <color name="icon_tint">#FEFAE0</color>
+    <color name="surface">#A9B388</color>
 
 
     <color name="primary_container">#007C9C</color>

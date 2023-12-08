@@ -1,22 +1,20 @@
-package com.fahmi.quranapp.presentation.quran
+package com.raji.quranapp.presentation.quran
 
 import android.media.AudioAttributes
 import android.media.MediaPlayer
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.view.MenuItem
 import android.view.View
 import androidx.activity.viewModels
 import androidx.appcompat.app.AlertDialog
-import androidx.fragment.app.viewModels
 import androidx.recyclerview.widget.LinearLayoutManager
-import com.fahmi.quranapp.R
-import com.fahmi.quranapp.adapter.ListAyahAdapter
-import com.fahmi.quranapp.adapter.ListSurahAdapter
-import com.fahmi.quranapp.core.data.network.quran.AyahsItem
-import com.fahmi.quranapp.core.data.network.quran.SurahItem
-import com.fahmi.quranapp.databinding.ActivityDetailSurahBinding
-import com.fahmi.quranapp.databinding.CustomViewAlertdialogBinding
-import retrofit2.Response
+import com.raji.quranapp.R
+import com.raji.quranapp.databinding.ActivityDetailSurahBinding
+import com.raji.quranapp.databinding.CustomViewAlertdialogBinding
+import com.raji.quranapp.adapter.ListAyahAdapter
+import com.raji.quranapp.core.data.network.quran.AyahsItem
+import com.raji.quranapp.core.data.network.quran.SurahItem
 import java.lang.Exception
 
 class DetailSurahActivity : AppCompatActivity() {
@@ -38,7 +36,14 @@ class DetailSurahActivity : AppCompatActivity() {
         binding = ActivityDetailSurahBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
+        supportActionBar?.apply {
+            setDisplayHomeAsUpEnabled(true)
+            title = "Detail Surah"
+        }
+
         val surah = intent.getParcelableExtra<SurahItem>(EXTRA_DATA)
+
+
 
         binding.apply {
             tvDetailAyah.text = "${surah?.revelationType} - ${surah?.numberOfAyahs} Ayahs"
@@ -66,6 +71,17 @@ class DetailSurahActivity : AppCompatActivity() {
                 layoutManager = LinearLayoutManager(this@DetailSurahActivity)
             }
 
+        }
+    }
+
+    override fun onOptionsItemSelected(item: MenuItem): Boolean {
+        return when(item.itemId){
+            android.R.id.home -> {
+                finish()
+                true
+            }
+
+            else -> super.onOptionsItemSelected(item)
         }
     }
 

@@ -1,4 +1,4 @@
-package com.fahmi.quranapp.presentation.quran
+package com.raji.quranapp.presentation.quran
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment
@@ -7,9 +7,8 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.viewModels
 import androidx.recyclerview.widget.LinearLayoutManager
-import com.fahmi.quranapp.R
-import com.fahmi.quranapp.adapter.ListSurahAdapter
-import com.fahmi.quranapp.databinding.FragmentQuranBinding
+import com.raji.quranapp.databinding.FragmentQuranBinding
+import com.raji.quranapp.adapter.ListSurahAdapter
 
 class QuranFragment : Fragment() {
 
